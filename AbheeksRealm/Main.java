@@ -57,7 +57,8 @@ class Main {
         deciWait(0.5);
       }
       // Give response box
-      print("\u001b[0m\n┌─\033[4mEnter Option │                     │");
+      print("\u001b[0m\n┌─\033[4mEnter Option Number\033[0m─┐");
+      print("│                     │");
       printStay("└─────────────────────┘\033[F\r|          \u001b[34;1m");
       // Take response
       EnteredValue = sc.nextLine();
